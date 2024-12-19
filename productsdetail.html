@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All products - Shiv Selection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+     <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\download01.jpeg"width="125px"></a>
+            </div>
+              <nav>
+                <ul   id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li> 
+                    <li><a href="">About</a></li> 
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <img src="images\cart.png"width="25px" height="25px">
+                 </ul>
+            </nav>
+        </div>
+</div>
+
+
+
+<!--------single productd details------------>
+ 
+    <div class="small-container  single-product">
+      <div class="row">
+    <div class="col-2">
+                <img src="images\look1.jpg" widht="100%" id="productImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images\look2.jpg" widht="100%" class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images\look.jpg" widht="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images\look3.jpg" widht="100%" class="small-img" >
+                    </div>
+                </div>
+
+
+
+
+
+        </div>
+            <div class="col-2">
+               <P>Home / Lehanga </P>
+               <h1>Dulhan lehanga by Asopalav</h1>
+               <h4>$3200.00</h4>
+               <select>
+                <option>select color</option>
+                <option>Red</option> 
+                <option>Blue</option> 
+                <option>Green</option>
+                <option>Yellow</option>
+               </select> 
+               <input type="number" value="1">
+               <a href="products-cart.html" class="btn">Add to cart</a>
+               <h3>Product Details</h3>
+               <p>Give your classic wedding dreams its deserving sartorial luxury with this deep pink silk lehenga- embellished to perfection with zardozi, stones and sequin elements.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------title-------------------------------------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+<!-------------products------------------------>
+        <div class="small-container"> 
+        <div class="row">
+            <div class="col-4">
+                <img src="images\chaniya1.jpg" height="300px" widht="300px"> 
+                <h4>Bridal Chaniya Choli</h4>
+                <p>$1200.00</p>
+    
+                    
+            </div>
+            <div class="col-4">
+                <img src="images\chaniya5.jpg" height="300px" widht="300px"> 
+                <h4>Gottapatti Work Chaniya Choli</h4>
+                <p>$1500.00</p>
+    
+                    
+            </div> <div class="col-4">
+                <img src="images\download 5.jpg" height="300px" widht="300px"> 
+                <h4>Golden Butta Saree</h4>
+                <p>$22.00</p>
+    
+                    
+            </div> <div class="col-4">
+                <img src="images\download 7.jpeg" height="300px" widht="300px"> 
+                <h4>Flower Printed Saree</h4>
+                <p>$45.00</p>
+            
+            </div>
+           
+           
+        </div>  
+    </div>
+<!-------------------footer---------------------------->>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="images\google2.png" height="60px" style="margin-top: 40px; margin-right: 5px;">
+                            <img src="images\appstore.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images\download01.jpeg" width="125px">
+                        <p>Our purpose is to Sustainly Make thr pleasure and Benefits of traditional Accesible to the many</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Posts</li>
+                            <li>Return policy</li>
+                            <li>join Affliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright  2022 - Shiv Selection</p>
+            </div>
+        </div>
+
+ <!-----js for product gallery-------------->
+ <script>
+    var productImg = document.getElementById("productImg");
+    var SmallImg = document.getElementById("small-img");
+    SmallImg[0].onclick = function(){
+        productImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        productImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        productImg.src = SmallImg[2].src;
+    }
+
+
+ </script>
+ </body>
+</html>
